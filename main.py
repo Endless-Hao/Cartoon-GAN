@@ -6,27 +6,27 @@ from tqdm import tqdm
 from torchnet.meter import AverageValueMeter
 
 class Config(object):
-    data_path = 'data'  # 数据集存放路径
-    num_workers = 4  # 多进程加载数据所用的进程数
-    image_size = 96  # 图片尺寸
+    data_path = 'data'  
+    num_workers = 4  
+    image_size = 96  #图像大小
     batch_size = 256
     max_epoch = 200
-    lr1 = 2e-4  # 生成器的学习率
-    lr2 = 2e-4  # 判别器的学习率
-    beta1 = 0.5  # Adam优化器的beta1参数
-    gpu = True  # 是否使用GPU
-    nz = 100  # 噪声维度
-    ngf = 64  # 生成器feature map数
-    ndf = 64  # 判别器feature map数
+    lr1 = 2e-4 
+    lr2 = 2e-4  
+    beta1 = 0.5  
+    gpu = True 
+    nz = 100  # noise的维度
+    ngf = 64  
+    ndf = 64  
 
-    save_path = 'imgs/'  # 生成图片保存路径
+    save_path = 'imgs/'  # save路径
 
-    debug_file = '/tmp/debuggan'  # 存在该文件则进入debug模式
+    debug_file = '/tmp/debuggan'  
     d_every = 1  # 每1个batch训练一次判别器
     g_every = 5  # 每5个batch训练一次生成器
-    save_every = 50  # 没10个epoch保存一次模型
-    netd_path = None  # 'checkpoints/netd_.pth' #预训练模型
-    netg_path = None  # 'checkpoints/netg_211.pth'
+    save_every = 50  # 每50个epoch保存一次模型
+    netd_path = None  #预训练模型
+    netg_path = None  # 
 
     # 只测试不训练
     gen_img = 'result.png'

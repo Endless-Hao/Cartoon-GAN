@@ -6,6 +6,9 @@
 目标：(目前只想到两个，后期可以扩增，有兴趣的各位一起加入)
 
 一阶段：GAN实现卡通图像自动生成（Onepro）
+200epoch:
 ![Image text](https://github.com/Endless-Hao/Cartoon-GAN/blob/master/Onepro/imgs/2019-10-22-199epoch.png)
+更新了model(5000epoch)：
+![Image text](https://github.com/Endless-Hao/Cartoon-GAN/blob/master/Onepro/imgs/2019-10-26-5000epoch.png)
 
 二阶段：GAN实现图像到图像的生成（输入一个人脸图像，输出一个对应的卡通头像）

@@ -8,9 +8,10 @@
 一阶段：GAN实现卡通图像自动生成（Onepro）
 
 200epoch:
+
 ![Image text](https://github.com/Endless-Hao/Cartoon-GAN/blob/master/Onepro/imgs/2019-10-22-199epoch.png)
 
-更新了model(5000epoch)：
+更新了model(5000epoch)：2019-10-26
 
 ![Image text](https://github.com/Endless-Hao/Cartoon-GAN/blob/master/Onepro/imgs/2019-10-26-5000epoch.png)
 
